@@ -40,3 +40,178 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.filpage {
+  padding: 10px;
+  text-align: center;
+}
+
+.filpage h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.filpage p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.filpage button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filpage button.selected {
+  background-color: gray;
+}
+
+.fils-container {
+  margin-bottom: 16px;
+}
+
+.fil {
+  margin-bottom: 16px;
+}
+
+.fil-box {
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.color-button {
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.memory-game {
+  padding: 20px;
+  text-align: center;
+}
+
+.button-container, .picker-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.number-button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  width: 50px;
+  cursor: pointer;
+}
+
+.number-button.selected {
+  background-color: gray;
+}
+
+.picker-wrapper {
+  flex: 1;
+  margin: 0 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.go-button, .next-button, .restart-button {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.go-button.disabled, .next-button.disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.selected-image-container {
+  border-color: green;
+  border-width: 3px;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.go-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.ordered-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ordered-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ordered-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

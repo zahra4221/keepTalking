@@ -9,6 +9,9 @@ const Header: React.FC = () => {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/filpage">Filpage</Link></li>
+          <li><Link to="/MemoryPage">MemoryPage</Link></li>
+          <li><Link to="/SymbolPage">SymbolPage</Link></li>
+
         </ul>
       </nav>
     </header>
